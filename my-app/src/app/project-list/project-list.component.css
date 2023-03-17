@@ -1,0 +1,17 @@
+
+section {
+    padding: 100px;
+    background-color: #4d4444;
+}
+
+.row {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.card {
+    background-color: #f8f9f1ff;
+    border-radius: 10px;
+    width: 100%;
+    
+}

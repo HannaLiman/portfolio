@@ -1,0 +1,25 @@
+
+section {
+    padding: 100px;
+    background-color: rgb(138, 158, 103);
+    
+}
+
+.row {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.column {
+    padding: 20px;
+    color: #f8f9f1ff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 80%;
+    border-radius: 10px;
+}

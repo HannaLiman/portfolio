@@ -1,0 +1,31 @@
+section {
+    padding-left: 100px;
+    padding-right: 100px; 
+    padding-top: 100px;
+    background-color: #f8f9f1ff; 
+}
+.row {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.default-image{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.special-image {
+    object-fit: contain;
+    align-content: center;
+}
+  
+.text-column {
+    padding: 30px;
+    padding-top: 200px;
+    text-align: right;
+    color: white;
+    height: 100%;
+    background-color: #667c40;
+}
+

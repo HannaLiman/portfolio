@@ -1,0 +1,19 @@
+<section>
+    <mat-grid-list cols="6" rowHeight="330px" class="row">
+      <mat-grid-tile *ngFor="let item of items" 
+        [colspan]="item.colspan || 1" 
+        [rowspan]="item.rowspan || 1">
+        <ng-container *ngIf="item.imageSrc">
+          <div class="column">
+            <img [src]="item.imageSrc" [class]="item.class || 'default-image'">
+          </div>
+        </ng-container>
+        <ng-container *ngIf="!item.imageSrc">
+          <div class="column text-column">
+            <h3>{{ item.text }}</h3>
+            <p>Everything from painting houses outdoors and wooden stoves indoors, to painting with acrylics.</p>
+          </div>
+        </ng-container>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </section>
