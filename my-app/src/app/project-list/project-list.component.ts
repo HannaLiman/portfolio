@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./project-list.component.css']
 })
 export class ProjectListComponent {
-
+  cards = [
+    { link: '/project1', content: 'Project 1' }, // content är Namnet på länken
+    { link: '/project2', content: 'Project 2' },
+    { link: '/project3', content: 'Project 3' }
+  ];
 }

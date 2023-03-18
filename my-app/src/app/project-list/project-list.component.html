@@ -1,11 +1,16 @@
 <section>
-    <mat-grid-list cols="2" class="row">
-      <mat-grid-tile [colspan]="2" class="card-section">
-            <mat-card routerLink="/other-page" class="card">
-                <mat-card-content>
-                  Simple card
-                </mat-card-content>
-            </mat-card>
-      </mat-grid-tile>
-    </mat-grid-list>
+  <mat-grid-list cols="2" class="row" rowHeight="30px" gutterSize="15px">
+    <mat-grid-tile [colspan]="2" class="card-section" 
+      *ngFor="let card of cards">
+        <a mat-card [routerLink]="card.link" class="card" style="height: 100%">
+          <mat-card-content>
+            {{ card.content }}
+          </mat-card-content>
+        </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+    <!---INFO OF SINGLE PROJECT-->
+  <router-outlet></router-outlet>
+
 </section>

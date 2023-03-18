@@ -20,6 +20,15 @@ import { QuoteSectionComponent } from './quote-section/quote-section.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import {MatCardModule} from '@angular/material/card';
 
+//Router
+import { AppRoutingModule } from './app-routing.module';
+
+//For markdown posts
+import { MarkdownModule } from 'ngx-markdown';
+import { HttpClientModule } from '@angular/common/http';
+import { SingleProjectPageComponent } from './single-project-page/single-project-page.component';
+
+
 
 
 @NgModule({
@@ -30,6 +39,7 @@ import {MatCardModule} from '@angular/material/card';
     ProjectsSectionComponent,
     QuoteSectionComponent,
     ProjectListComponent,
+    SingleProjectPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,6 +51,9 @@ import {MatCardModule} from '@angular/material/card';
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
+    AppRoutingModule,
+    MarkdownModule.forRoot(),
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
