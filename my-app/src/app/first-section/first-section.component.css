@@ -1,18 +1,20 @@
 
 section {
-    padding: 100px;
     background-color: rgb(138, 158, 103);
-    
+    margin: 30px;
+    border-radius: 20px;
+     
 }
 
 .row {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .column {
     padding: 20px;
     color: #f8f9f1ff;
+    padding-top: 100px;
 }
 
 a {

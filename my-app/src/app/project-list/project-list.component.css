@@ -2,11 +2,23 @@
 section {
     padding: 100px;
     background-color: #4d4444;
+    margin: 0 30px;
+    border-radius: 20px;
 }
 
 .row {
     margin-right: 10%;
     margin-left: 10%;
+}
+
+.row h2{
+    color: #f8f9f1ff;
+}
+
+.second-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f8f9f1ff;
 }
 
 .card {

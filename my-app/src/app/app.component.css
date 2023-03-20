@@ -6,3 +6,11 @@
     --van-dyke: #403233ff;
     --eggplant: #754668ff;
 }
+
+body {
+    background-color: #f8f9f1ff !important;
+}
+
+p {
+    color: #f8f9f1ff;
+}

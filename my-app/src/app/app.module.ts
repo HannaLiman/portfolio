@@ -23,10 +23,15 @@ import {MatCardModule} from '@angular/material/card';
 //Router
 import { AppRoutingModule } from './app-routing.module';
 
+//Icons
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 //For markdown posts
 import { MarkdownModule } from 'ngx-markdown';
 import { HttpClientModule } from '@angular/common/http';
 import { SingleProjectPageComponent } from './single-project-page/single-project-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { LastSectionComponent } from './last-section/last-section.component';
 
 
 
@@ -40,6 +45,8 @@ import { SingleProjectPageComponent } from './single-project-page/single-project
     QuoteSectionComponent,
     ProjectListComponent,
     SingleProjectPageComponent,
+    FooterComponent,
+    LastSectionComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,6 +61,7 @@ import { SingleProjectPageComponent } from './single-project-page/single-project
     AppRoutingModule,
     MarkdownModule.forRoot(),
     HttpClientModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
