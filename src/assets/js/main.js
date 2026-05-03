@@ -1,5 +1,45 @@
-// Add your javascript here
+// My js here
 
+
+// image carousel component js code
+function setupImageCarousel(carousel) {
+	const track = carousel.querySelector(".carousel-track");
+	const slides = Array.from(track.children);
+	const buttons = carousel.querySelectorAll("[data-carousel-button]");
+	let index = 0;
+
+	if (slides.length === 0) {
+		return;
+	}
+
+	function update() {
+		const slide = slides[index];
+		track.style.transform = `translateX(-${slide.offsetLeft}px)`;
+	}
+	window.addEventListener("resize", update);
+
+	buttons.forEach((button) => {
+		button.addEventListener("click", () => {
+			const direction = button.dataset.carouselButton;
+
+			if (direction === "next") {
+				index = (index + 1) % slides.length;
+			} else {
+				index = (index - 1 + slides.length) % slides.length;
+			}
+
+			update();
+		});
+	});
+}
+
+function setupImageCarousels() {
+	document.querySelectorAll("[data-carousel]").forEach(setupImageCarousel);
+}
+
+
+
+// template javascript below
 window.darkMode = false;
 
 const stickyClasses = ["fixed", "h-14"];
@@ -30,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	applyMenuItemClasses();
 	evaluateHeaderPosition();
 	mobileMenuFunctionality();
+	setupImageCarousels();
 });
 
 // window.toggleDarkMode = function(){
