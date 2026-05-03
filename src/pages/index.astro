@@ -4,6 +4,7 @@ import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
+import HannaLimanText from "../components/hannaliman-text.astro";
 ---
 
 <Layout title="Kai">
@@ -12,11 +13,16 @@ import Layout from "../layouts/main.astro";
   >
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
-        <h1
+        <!-- <h1
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
           Hanna Liman
-        </h1>
+        </h1> -->
+        <div class="mb-6">
+        <HannaLimanText firstName="Hanna" lastName="Liman" size="text-[5rem]" lastSize="text-[5.7rem]" />
+        </div>
+
+
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
           I’m a creative problem solver with a hands-on approach to learning and building.
         </p>
