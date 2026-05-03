@@ -1,0 +1,12 @@
+---
+const { firstName, lastName, size = "text-[80px]", lastSize = "text-[89px]" } = Astro.props;
+---
+
+<h2 class="text-center text-[#7699d4] tracking-tight">
+  <span class={`block font-playfair font-extrabold leading-[0.9] ${size}`}>
+    {firstName}
+  </span>
+  <span class={`block font-playfair font-normal leading-[0.9] tracking-[-0.89px] ${lastSize}`}>
+    {lastName}
+  </span>
+</h2>
