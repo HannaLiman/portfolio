@@ -7,6 +7,13 @@ export default {
 			fontFamily: {
 				playfair: ['"Playfair Display"', 'serif'],
 			},
+			colors: {
+					bg: "var(--bg)",
+					text: "var(--text)",
+					secondary: "var(--secondary)",
+					accent: "var(--accent)",
+					bgfooter: "var(--bgfooter)",
+			},
 		},
 	},
 	plugins: [require("@tailwindcss/typography")],

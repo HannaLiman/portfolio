@@ -10,22 +10,23 @@ import HannaLimanText from "../components/hannaliman-text.astro";
   <div
     class="flex items-center justify-between h-full max-w-5xl pl-6 pr-4 mx-auto border-b border-l-0 border-r-0 border-transparent select-none lg:border-r lg:border-l lg:rounded-b-xl"
   >
-    <HannaLimanText firstName="Hanna" lastName="Liman" size="text-2xl" lastSize="text-[1.7rem]" />
+    <img src="/assets/h-icon-blue.svg" class="w-8 h-8 cursor-pointer hover:opacity-80 transition-opacity" />
+
     <div
       id="mobileMenuBackground"
       onclick="closeMobileMenu()"
-      class="fixed inset-0 z-20 hidden w-screen h-screen duration-300 ease-out bg-white/90 dark:bg-neutral-950/90"
+      class="fixed inset-0 z-20 hidden w-screen h-screen duration-300 ease-out bg-bg dark:bg-bg"
     >
     </div>
     <nav
-      class="relative z-30 flex flex-row-reverse justify-start w-full text-sm sm:justify-end text-neutral-500 dark:text-neutral-400 sm:flex-row"
+      class="relative z-30 flex flex-row-reverse justify-start w-full text-sm sm:justify-end text-text dark:text-text sm:flex-row"
     >
       <div
         id="openMenu"
         class="flex flex-col items-end justify-center w-6 h-6 ml-4 cursor-pointer sm:hidden"
       >
         <svg
-          class="w-8 h-8 dark:text-neutral-200"
+          class="w-8 h-8 dark:text-text"
           fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -39,7 +40,7 @@ import HannaLimanText from "../components/hannaliman-text.astro";
         class="flex flex-col items-end justify-center hidden w-6 h-6 ml-4 -translate-x-1 cursor-pointer sm:hidden"
       >
         <svg
-          class="w-6 h-6 text-neutral-600 dark:text-neutral-200"
+          class="w-6 h-6 text-text dark:text-text"
           fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -56,7 +57,7 @@ import HannaLimanText from "../components/hannaliman-text.astro";
           class="absolute inset-0 top-0 right-0 block w-full h-full px-3 sm:hidden"
         >
           <div
-            class="relative w-full h-full bg-white border border-dashed border-neutral-300 dark:border-neutral-700 backdrop-blur-sm rounded-xl dark:bg-neutral-950"
+            class="relative w-full h-full bg-bg border border-dashed border-neutral-300 dark:border-neutral-700 backdrop-blur-sm rounded-xl dark:bg-bg"
           >
           </div>
         </div>
@@ -75,7 +76,7 @@ import HannaLimanText from "../components/hannaliman-text.astro";
       </div>
       <div
         id="darkToggle"
-        class="relative flex items-center pl-6 ml-4 font-medium tracking-wide cursor-pointer text-neutral-800 group dark:text-white"
+        class="relative flex items-center pl-6 ml-4 font-medium tracking-wide cursor-pointer text-text group dark:text-text"
       >
         <div
           class="absolute left-0 flex items-center justify-center w-6 h-6 overflow-hidden border-b border-transparent horizon group-hover:border-neutral-600"

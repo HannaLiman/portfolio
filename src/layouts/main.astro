@@ -29,12 +29,12 @@ const { title } = Astro.props;
         border-radius: 20px;
       }
     </style>
-    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="../assets/h-icon-round.svg" />
     <script src="../assets/css/main.css"></script>
     <Fragment set:html={import.meta.env.HEADER_INJECT} />
   </head>
-  <body class="antialiased bg-white dark:bg-neutral-950">
-    <SquareLines />
+  <body class="antialiased bg-bg dark:bg-bg">
+    <!-- <SquareLines /> rutfältet på index sidan -->
     <Header />
     <slot />
     <Footer />

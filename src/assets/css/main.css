@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Color Variables */
+
+:root {
+  --bg: #DFE3D9;
+  --text: #373737;
+  --secondary: #F8F9F1;
+  --accent: #7699D4;
+}
+
+.dark {
+  --bg: #294936;
+  --text: #F8F9F1;
+  --secondary: #DFE3D9;
+  --accent: #7699D4;
+  --bgfooter: #1f2a24;
+}
 /* Add Your Custom CSS Here */
 
 .prose img {
