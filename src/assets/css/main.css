@@ -9,6 +9,8 @@
   --text: #373737;
   --secondary: #F8F9F1;
   --accent: #7699D4;
+  --bgbutton: #FFFFFF;
+  --textbutton: #525252;
 }
 
 .dark {
@@ -17,7 +19,10 @@
   --secondary: #DFE3D9;
   --accent: #7699D4;
   --bgfooter: #1f2a24;
+  --bgbutton: #FFFFFF;
+  --textbutton: #525252;
 }
+
 /* Add Your Custom CSS Here */
 
 .prose img {

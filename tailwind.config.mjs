@@ -13,6 +13,8 @@ export default {
 					secondary: "var(--secondary)",
 					accent: "var(--accent)",
 					bgfooter: "var(--bgfooter)",
+					bgbutton: "var(--bgbutton)",
+					textbutton: "var(--textbutton)",
 			},
 		},
 	},

@@ -3,15 +3,15 @@ import projects from "../collections/projects.json";
 import PageHeading from "../components/page-heading.astro";
 import Project from "../components/project.astro";
 import Layout from "../layouts/main.astro";
+import Button from "../components/button.astro";
 ---
 
 <Layout title="My Projects">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="My Projects"
-      description="Here are some of the current projects I've been working on. I really enjoy creating new projects and coming up with new ideas. I'm always working on something new, so check back often!"
+    description="Here are some of the web applications and websites I have been involved in creating, along with my master’s thesis. If you'd like to take a look, click any of the projects below!"
     />
-
     <div
       class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
     >
@@ -27,6 +27,12 @@ import Layout from "../layouts/main.astro";
           )
         })
       }
+    </div>
+    <p class="mt-10 text-sm leading-6 text-text dark:text-text sm:mt-12 lg:mt-14 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+        Want to read more about my thoughts, ideas, and experiences, including things I’ve built, tried, succeeded at, and failed at? Head over to the Posts section.
+    </p>
+    <div class="flex items-center justify-left w-full py-5">
+      <Button text="View Posts" link="/posts" />
     </div>
   </section>
 </Layout>
