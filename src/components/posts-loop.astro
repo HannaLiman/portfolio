@@ -31,13 +31,13 @@ const postsLoop = sortedPosts.slice(0, count).map((post) => {
         class="relative border border-transparent border-dashed cursor-pointer p-7 group rounded-2xl"
         onclick={`location.href = '${post.link}'`}
       >
-        <div class="absolute inset-0 z-20 w-full h-full duration-300 ease-out bg-white border border-dashed dark:bg-neutral-950 rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:-translate-x-1 group-hover:-translate-y-1" />
+        <div class="absolute inset-0 z-20 w-full h-full duration-300 ease-out bg-white dark:bg-bgfooter border border-transparent border-dashed group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:border group-hover:border-neutral-300 dark:group-hover:border-neutral-600 group-hover:border-dashed rounded-2xl group-hover:bg-neutral-100 dark:group-hover:bg-[#17211b]" />
         <div class="absolute inset-0 z-10 w-full h-full duration-300 ease-out border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:translate-x-1 group-hover:translate-y-1" />
         <div class="relative z-30 duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1">
           <h2 class="flex items-center mb-3">
             <a
               href={post.link}
-              class="text-base font-bold leading-tight tracking-tight sm:text-lg dark:text-neutral-100"
+              class="text-base font-bold leading-tight tracking-tight sm:text-lg text-neutral-900 dark:text-neutral-100"
             >
               {post.title}
             </a>
