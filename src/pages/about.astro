@@ -25,7 +25,7 @@ const slides = [
 
     <!-- <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2> -->
     <p
-      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+      class="text-sm leading-6 text-text dark:text-text sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
       I learn best through hands-on experience and by being proactive. I believe that if others can do something, it is also something I can learn. I’m comfortable stepping in front of an audience, whether it’s to teach, tutor, or simply share my experiences. I enjoy helping others with everything from setting up a printer to fixing a broken lampshade. 
       <br></br>
@@ -33,7 +33,7 @@ const slides = [
     </p>
 
     <h2
-      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+      class="mt-20 mb-2 text-2xl font-bold lg:mt-30 sm:mt-20 dark:text-neutral-200"
     >
       Experience
     </h2>
@@ -41,7 +41,7 @@ const slides = [
       {
         experiences.map((experience) => {
           return (
-            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+            <div class="pb-10 border-l-2 border-secondary last:border-l-0 dark:border-secondary">
               <AboutExperience
                 dates={experience.dates}
                 role={experience.role}
@@ -57,17 +57,17 @@ const slides = [
 
     <Carousel slides={slides} />
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2 class="mt-20 mb-2 text-2xl font-bold lg:mt-30 sm:mt-20 dark:text-neutral-200">Let's Connect</h2>
     <p
-      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+      class="text-sm leading-6 text-text dark:text-text sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work be sure to <a
+      Feel free to connect with me on <a
         href="https://x.com/0xKaibi"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
+        class="text-indigo-400 underline">LinkedIn</a
+      >, even though I don't post there very often. If you have a question, an idea, a project in mind, or just want to say hello, you can also send me an <a href="mailto:limanhanna@gmail.com" class="text-indigo-400 underline"
         >email</a
-      > and I'll be sure to get back to you.
+      >.
     </p>
   </section>
 </Layout>

@@ -14,7 +14,8 @@
 }
 
 .dark {
-  --bg: #294936;
+  /* --bg: #294936; */
+  --bg: #2E4738;
   --text: #F8F9F1;
   --secondary: #DFE3D9;
   --accent: #7699D4;
