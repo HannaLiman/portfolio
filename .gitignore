@@ -23,5 +23,3 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
  
-# ignore archived example posts
-src/content/archived-example-posts/
