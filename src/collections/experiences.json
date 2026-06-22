@@ -4,41 +4,41 @@
 		"role": "Junior Software Engineer",
 		"company": "Fortum oyj",
 		"description": "Developing low-code solutions, building and nurturing the low-code community and supporting other business users. Working closely with stakeholders to design and deliver new technical solutions.",
-		"logo": "/assets/images/experiences/fortum-icon.png"
+		"logo": "/portfolio/assets/images/experiences/fortum-icon.png"
 	},
 	{
 		"dates": "May 2025 · September 2025",
 		"role": "Summer Trainee, Low-Code Developer",
 		"company": "Fortum oyj",
 		"description": "Developing low-code solutions to automate and support internal processes.",
-		"logo": "/assets/images/experiences/fortum-icon.png"
+		"logo": "/portfolio/assets/images/experiences/fortum-icon.png"
 	},
 	{
 		"dates": "January 2024 · Present",
 		"role": "Entrepreneur - Digital marketplace",
 		"company": "Oy Lokala Ab",
 		"description": "Built a digital marketplace for small producers to sell directly to consumers, working as CEO and handling board meetings, company outreach, and idea testing.",
-		"logo": "/assets/images/experiences/lokala-icon.svg"
+		"logo": "/portfolio/assets/images/experiences/lokala-icon.svg"
 	},
 	{
 		"dates": "September 2022 · December 2024",
 		"role": "Web Development Educator",
 		"company": "Konsultbyrå Liman, Lindcode Ab",
 		"description": "Delivering weekly web development lectures as employer and later as freelancer through Konsultbyrå Liman.",
-		"logo": "/assets/images/experiences/lindcode-logo.svg"
+		"logo": "/portfolio/assets/images/experiences/lindcode-logo.svg"
 	},
 	{
 		"dates": "October 2020 · Present",
 		"role": "Freelance work",
 		"company": "Konsultbyrå Liman, Light entreprenourship",
 		"description": "Completed various freelance jobs including painting houses, gardening, WordPress website development, and dog sitting.",
-		"logo": "/assets/h-icon-round.svg"
+		"logo": "/portfolio/assets/h-icon-round.svg"
 	},
 		{
 		"dates": "February 2019 · August 2019",
 		"role": "Customer Service Agent",
 		"company": "RTG Sales Oy",
 		"description": "Provided customer service for Finnair s customers in Swedish, English, and Finnish. I assisted with reservations, travel extras, and solving customers problems during travels.",
-		"logo": "/assets/images/experiences/rtg-logo.svg"
+		"logo": "/portfolio/assets/images/experiences/rtg-logo.svg"
 	}
 ]

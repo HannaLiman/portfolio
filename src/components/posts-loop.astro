@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 const allPosts = await getCollection("post");
 
 const { count } = Astro.props;
+const base = import.meta.env.BASE_URL;
 
 function parseDate(dateStr) {
   const [month, day, year] = dateStr.split(" ");
@@ -19,7 +20,7 @@ const sortedPosts = allPosts
 const postsLoop = sortedPosts.slice(0, count).map((post) => {
   return {
     ...(post.data || {}),
-    link: `/post/${post.slug}`,
+    link: `${base}/post/${post.slug}`,
   };
 });
 ---

@@ -1,7 +1,6 @@
 ---
 import menus from "../collections/menu.json";
-//import Logo from "../components/logo.astro";
-import HannaLimanText from "../components/hannaliman-text.astro";
+const base = import.meta.env.BASE_URL;
 ---
 
 <!-- This is an invisible div with relative position so that it takes up the height of the menu (because menu is absolute/fixed) -->
@@ -10,7 +9,13 @@ import HannaLimanText from "../components/hannaliman-text.astro";
   <div
     class="flex items-center justify-between h-full max-w-5xl pl-6 pr-4 mx-auto border-b border-l-0 border-r-0 border-transparent select-none lg:border-r lg:border-l lg:rounded-b-xl"
   >
-    <img src="/assets/h-icon-blue.svg" class="w-8 h-8 cursor-pointer hover:opacity-80 transition-opacity" />
+  <a href={`${base}`}>
+    <img
+      src={`${base}/assets/h-icon-blue.svg`}
+      class="w-8 h-8 cursor-pointer hover:opacity-80 transition-opacity"
+      alt="Home"
+    />
+  </a>
 
     <div
       id="mobileMenuBackground"

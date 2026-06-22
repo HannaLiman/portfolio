@@ -2,19 +2,19 @@
 	{
 		"name": "Lokala.fi",
 		"description": "Find local shops near you!",
-		"image": "/assets/images/projects/projects-lokala.png",
+		"image": "/portfolio/assets/images/projects/projects-lokala.png",
 		"url": "https://lokala.fi/"
 	},
 	{
 		"name": "FTERA.fi",
 		"description": "Wordpress website for FTERA.",
-		"image": "/assets/images/projects/projects-ftera.png",
+		"image": "/portfolio/assets/images/projects/projects-ftera.png",
 		"url": "https://www.ftera.fi/"
 	},
 	{
 		"name": "My Master's Thesis",
 		"description": "Thesis about UX design.",
-		"image": "/assets/images/projects/projects-masters-thesis.png",
+		"image": "/portfolio/assets/images/projects/projects-masters-thesis.png",
 		"url": "https://www.doria.fi/handle/10024/192631"
 	}
 ]
