@@ -3,13 +3,12 @@ import experiences from "../collections/experiences.json";
 import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
-
 import Carousel from "../components/image-carousel.astro";
-
+const base = import.meta.env.BASE_URL;
 const slides = [
-  { image: "/assets/images/apelago-pitch-3.jpg", alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
-  { image: "/assets/images/apelago-pitch-2.jpg", alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
-  { image: "/assets/images/apelago-stand.JPG", alt: "Image of red painted market stand", caption: "Lokala market stand at A'Pelago Initiative 2025" },
+  { image: `${base}/assets/images/apelago-pitch-3.jpg`, alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
+  { image: `${base}/assets/images/apelago-pitch-2.jpg`, alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
+  { image: `${base}/assets/images/apelago-stand.JPG`, alt: "Image of red painted market stand", caption: "Lokala market stand at A'Pelago Initiative 2025" },
 
 ];
 ---
@@ -21,7 +20,7 @@ const slides = [
       description="Hi there 👋 I’m a Junior Software Engineer at Fortum in Espoo. I focus on building low-code solutions that automate and support internal processes."
     />
 
-    <img src="/assets/images/betygsutdelning-hanna.PNG" class="relative z-30 w-full my-10 rounded-xl" />
+    <img src={`${base}/assets/images/betygsutdelning-hanna.PNG`} class="relative z-30 w-full my-10 rounded-xl" />
 
     <!-- <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2> -->
     <p
@@ -62,7 +61,7 @@ const slides = [
       class="text-sm leading-6 text-text dark:text-text sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
       Feel free to connect with me on <a
-        href="https://x.com/0xKaibi"
+        href="https://www.linkedin.com/in/limanhanna/"
         target="_blank"
         class="text-indigo-400 underline">LinkedIn</a
       >, even though I don't post there very often. If you have a question, an idea, a project in mind, or just want to say hello, you can also send me an <a href="mailto:limanhanna@gmail.com" class="text-indigo-400 underline"
