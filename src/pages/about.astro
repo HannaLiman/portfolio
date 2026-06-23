@@ -4,11 +4,10 @@ import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 import Carousel from "../components/image-carousel.astro";
-const base = import.meta.env.BASE_URL;
 const slides = [
-  { image: `${base}/assets/images/apelago-pitch-3.jpg`, alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
-  { image: `${base}/assets/images/apelago-pitch-2.jpg`, alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
-  { image: `${base}/assets/images/apelago-stand.JPG`, alt: "Image of red painted market stand", caption: "Lokala market stand at A'Pelago Initiative 2025" },
+  { image: `/assets/images/apelago-pitch-3.jpg`, alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
+  { image: `/assets/images/apelago-pitch-2.jpg`, alt: "Image of Hanna standing on stage", caption: "Pitching at A'Pelago Initiative 2025" },
+  { image: `/assets/images/apelago-stand.JPG`, alt: "Image of red painted market stand", caption: "Lokala market stand at A'Pelago Initiative 2025" },
 
 ];
 ---
@@ -20,7 +19,7 @@ const slides = [
       description="Hi there 👋 I’m a Junior Software Engineer at Fortum in Espoo. I focus on building low-code solutions that automate and support internal processes."
     />
 
-    <img src={`${base}/assets/images/betygsutdelning-hanna.PNG`} class="relative z-30 w-full my-10 rounded-xl" />
+    <img src=`/assets/images/betygsutdelning-hanna.PNG` class="relative z-30 w-full my-10 rounded-xl" />
 
     <!-- <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2> -->
     <p
