@@ -1,9 +1,16 @@
 [
 	{
-		"dates": "September 2025 · Present",
+		"dates": "September 2026 · Present",
+		"role": "Software Engineer",
+		"company": "Fortum oyj",
+		"description": "Designing and developing Microsoft Power Platform solutions, with increased responsibility for technical decisions. Working with stakeholders to propose solutions and build internal tools that automate processes and use AI to improve them.",
+		"logo": "/assets/images/experiences/fortum-icon.png"
+	},
+	{
+		"dates": "September 2025 · September 2026 (One year)",
 		"role": "Junior Software Engineer",
 		"company": "Fortum oyj",
-		"description": "Developing low-code solutions, building and nurturing the low-code community and supporting other business users. Working closely with stakeholders to design and deliver new technical solutions.",
+		"description": "Developing low-code solutions and supporting business users with Power Platform. Contributing to the low-code community through knowledge sharing and collaboration, while working with stakeholders to gather requirements and deliver new features andsolutions.",
 		"logo": "/assets/images/experiences/fortum-icon.png"
 	},
 	{
